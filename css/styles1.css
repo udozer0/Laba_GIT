@@ -1,0 +1,162 @@
+body {
+    background: url("../pics/bg2.jpg");
+    background-attachment:fixed;
+    background-size: 100%;
+}
+
+#avatar {
+    content: url("../pics/default.jpg");
+    height: 100px;
+    width: 100px;
+    float: left;
+    outline: 2px solid #000;
+    align-content: center;
+    margin-left: 47.5%;
+    margin-right: 50%;
+}
+
+.form1 {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+div {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+
+label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #666666;
+}
+
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 0px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #333333;
+}
+
+.error {
+    color: red;
+} 
+
+.invis {
+    display: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #337ab7;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+}
+
+button:hover {
+    background-color: #23527c;
+}
+
+#toauth_button,#newrequest,#changeavatar {
+    width: 20%;
+    margin-top: 10px;
+}
+
+
+form div:last-child {
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+    margin-top: 10px;
+}
+
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 0px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #333333;
+}
+
+
+form select option {
+    font-size: 14px;
+    color: #333333;
+}
+
+
+#list {
+    border-radius: 7px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #eaf6ff;
+}
+
+#tabl {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #dddddd;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333333;
+}
+
+#tabl tr:first-child {
+    background-color: #42a3ad;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #dddddd;
+}
+
+#tabl th {
+    background-color: #d2ebf7;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #dddddd;
+}
+
+#tabl tr:last-child, #tabl th:last-child {
+    background-color: #eaf6ff;
+    border-color: #eaf6ff;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
