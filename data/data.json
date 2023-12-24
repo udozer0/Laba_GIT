@@ -1,0 +1,62 @@
+[
+    {
+        "email": "a@mail.ru",
+        "age": "11",
+        "username": "test",
+        "psw": "asdf",
+        "requests": [
+            {
+                "r1": "a",
+                "r2": "11-11-1313",
+                "r3": "11",
+                "r4": "a",
+                "r5": "★★"
+            },
+            {
+                "r1": "a",
+                "r2": "11-11-1313",
+                "r3": "11",
+                "r4": "a",
+                "r5": "★★★"
+            },
+            {
+                "r1": "a",
+                "r2": "11-11-2023",
+                "r3": "11",
+                "r4": "a",
+                "r5": "★★"
+            }
+        ],
+        "av": "..\/pics\/avatars\/648ef6788eb60.png"
+    },
+    {
+        "email": "admin@mail.ru",
+        "age": "15",
+        "username": "admin",
+        "psw": "qwer",
+        "requests": []
+    },
+    {
+        "email": "egor4ik@mail.ru",
+        "age": "17",
+        "username": "BillyHerrington",
+        "psw": "1337228",
+        "requests": [
+            {
+                "r1": "Кекляндия",
+                "r2": "25-05-2023",
+                "r3": "3413413424234242342",
+                "r4": "FullHouse",
+                "r5": "★★★★★"
+            },
+            {
+                "r1": "a",
+                "r2": "11-11-1313",
+                "r3": "11",
+                "r4": "FullHouse",
+                "r5": "★★★"
+            }
+        ],
+        "av": "..\/pics\/avatars\/648e0d5739263.jpg"
+    }
+]
