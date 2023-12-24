@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ʕ ᵔᴥᵔ ʔ</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="../js/jquery.js"></script>
+        <LINK REL="stylesheet" TYPE="text/css" HREF="../css/styles1.css">
+    </head>
+    <body>
+        <form id="request" class="form1">
+            <div id="zaya">Новая заявка</div>
+            <label>Пункт назначения</label><br>
+            <input type="text" id="r1" name="r1"><br>
+            <span id="r1_error" class="error"></span><br>
+            <label>Дата отъезда (формат дд-мм-гггг)</label><br>
+            <input type="text" id="r2" name="r2"><br>
+            <span id="r2_error" class="error"></span><br>
+            <label>Длительность поездки в днях</label><br>
+            <input type="text" id="r3" name="r3"><br>
+            <span id="r3_error" class="error"></span><br>
+            <label>Название отеля</label><br>
+            <input type="text" id="r4" name="r4"><br>
+            <span id="r4_error" class="error"></span><br>
+            <label>Количество звезд отеля</label><br>
+            <select id="r5" name="r5">
+                <option value="">Выбрать ответ</option>
+                <option value="★">★</option>
+                <option value="★★">★★</option>
+                <option value="★★★">★★★</option>
+                <option value="★★★★">★★★★</option>
+                <option value="★★★★★">★★★★★</option>
+            </select><br>
+            <span id="r5_error" class="error"></span><br>
+            <button type="button" id="sendrequest">Отправить заявку</button><br>
+            <button type="button" class="invis" id="changerequest">Изменить заявку</button><br>
+            <button type="button" id="cancel">Отменить заявку</button>
+            <input class="invis" id="user" name="USER">
+        </form>
+        <script src="../js/script3.js"></script>
+    </body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ʕ ᵔᴥᵔ ʔ</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="../js/jquery.js"></script>
+        <LINK REL="stylesheet" TYPE="text/css" HREF="../css/styles1.css">
+    </head>
+    <body>
+        <div>Личный кабинет</div>
+        <img id="avatar" src="" alt="Аватар пользователя">
+        <div id="user"></div>	
+        <form id="awa" method="post" enctype="multipart/form-data">
+        <div><label for="fileupload" class="custom-file-upload">
+            Сменить аватар
+        </label></div>
+        <input id="fileupload" name="fileupload" type="file" accept="image/*"></form>
+        <div><button type="button" id="toauth_button">Выйти</button></div>
+        <div id="list"> Путевки
+                <table id="tabl">
+                        <tr>
+                            <th>№</th>
+                            <th>Пункт назначения</th>
+                            <th>Дата отъезда</th>
+                            <th>Длительность поездки</th>
+                            <th>Название отеля</th>
+                            <th>Количество звезд отеля</th>
+                            <th></th>
+                        </tr>
+                </table>
+        </div>
+        <div><button type="button" id="newrequest">Добавить заявку</button></div>
+        <script src="../js/script2.js"></script>
+    </body>
+</html>
