@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!-- 
+Данков 22ВП2 вариант 7 Форма заказа путёвки на сайте туристического агентства.
+-->
+<html>
+    <head>
+        <title>ʕ ᵔᴥᵔ ʔ</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/jquery.js"></script>
+        <LINK REL="stylesheet" TYPE="text/css" HREF="css/styles1.css">
+    </head>
+    <body>
+        <form id="authorization" class="form1">
+            <div>Авторизация</div>
+            <label>Логин</label><br>
+            <input type="text" id="username" name="username"><br>
+            <span id="username_logerr" class="error"></span><br>
+            <label>Пароль</label><br>
+            <input type="password" id="psw" name="psw"><br>
+            <span id="psw_logerr" class="error"></span><br>
+            <button type="button" id="button_1">Войти</button>
+            <div>Нет аккаунта?</div>
+            <button type="button" id="button_2" onclick="toreg()">
+                Зарегистрироваться</button>
+        </form>
+        <form id="registration" class="form1" style="display:none;">
+            <div>Регистрация</div>
+            <label>Почта</label><br>
+            <input type="text" id="reg_email" name="reg_email"><br>
+            <span id="email_error" class="error"></span><br>
+            <label>Возраст</label><br>
+            <input type="text" id="reg_age" name="reg_age"><br>
+            <span id="age_error" class="error"></span><br>
+            <label>Логин</label><br>
+            <input type="text" id="reg_username" name="reg_username"><br>
+            <span id="username_error" class="error"></span><br>
+            <label>Пароль</label><br>
+            <input type="password" id="reg_psw" name="reg_psw"><br>
+            <span id="psw_error" class="error"></span><br>
+            <label>Повторите пароль</label><br>
+            <input type="password" id="reg_pswrep" name="reg_pswrep"><br>
+            <span id="pswrep_error" class="error"></span><br>
+            <button type="button" id="button_3">Зарегестрироваться</button>
+            <div>Уже есть аккаунт?</div>
+            <button type="button" id="button_4" onclick="toauth()">
+                Войти</button>
+        </form>
+        <script src="js/script1.js"></script>
+    </body>
+</html>
